@@ -145,6 +145,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4723769294288801339}
     m_Modifications:
+    - target: {fileID: 1052749165, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
+      propertyPath: lasers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1052749165, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
+      propertyPath: lasers.Array.data[0]
+      value: 
+      objectReference: {fileID: 5064388240611936393}
+    - target: {fileID: 1052749165, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
+      propertyPath: lasers.Array.data[1]
+      value: 
+      objectReference: {fileID: 6320829076737260628}
     - target: {fileID: 7584822000608053182, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
       propertyPath: m_Name
       value: StarSparrow17
@@ -198,5 +210,15 @@ PrefabInstance:
 --- !u!4 &2939865708398658468 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7584822000608053185, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
+  m_PrefabInstance: {fileID: 4723769294284637285}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5064388240611936393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 560242270829071596, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
+  m_PrefabInstance: {fileID: 4723769294284637285}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6320829076737260628 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1600514731525388337, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
   m_PrefabInstance: {fileID: 4723769294284637285}
   m_PrefabAsset: {fileID: 0}
