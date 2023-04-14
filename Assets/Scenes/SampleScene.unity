@@ -274,7 +274,7 @@ TerrainCollider:
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: b5a5ce5868d56cc41a0035e8eda45525, type: 2}
-  m_EnableTreeColliders: 1
+  m_EnableTreeColliders: 0
 --- !u!218 &1191833583
 Terrain:
   m_ObjectHideFlags: 0
@@ -525,6 +525,18 @@ PrefabInstance:
     - target: {fileID: 4723769294288801339, guid: 01f0fd2be30524c41b90deb9ef423231, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5026587017666894619, guid: 01f0fd2be30524c41b90deb9ef423231, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5026587017666894619, guid: 01f0fd2be30524c41b90deb9ef423231, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5026587017666894619, guid: 01f0fd2be30524c41b90deb9ef423231, type: 3}
+      propertyPath: m_Constraints
+      value: 126
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01f0fd2be30524c41b90deb9ef423231, type: 3}
