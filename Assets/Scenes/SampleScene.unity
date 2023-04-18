@@ -141,6 +141,7 @@ GameObject:
   - component: {fileID: 1146359700}
   - component: {fileID: 1146359699}
   - component: {fileID: 1146359698}
+  - component: {fileID: 1146359703}
   m_Layer: 0
   m_Name: 'Enemy '
   m_TagString: Untagged
@@ -246,6 +247,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1146359703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146359697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4426abc4a6ceb9e46be420fc2b44de41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1191833581
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,6 +550,34 @@ PrefabInstance:
     - target: {fileID: 5026587017666894619, guid: 01f0fd2be30524c41b90deb9ef423231, type: 3}
       propertyPath: m_Constraints
       value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 5064388240611936398, guid: 01f0fd2be30524c41b90deb9ef423231, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 5064388240611936398, guid: 01f0fd2be30524c41b90deb9ef423231, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5064388240611936398, guid: 01f0fd2be30524c41b90deb9ef423231, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129598070259693815, guid: 01f0fd2be30524c41b90deb9ef423231, type: 3}
+      propertyPath: m_Center.z
+      value: -3.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320829076737260627, guid: 01f0fd2be30524c41b90deb9ef423231, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320829076737260627, guid: 01f0fd2be30524c41b90deb9ef423231, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320829076737260627, guid: 01f0fd2be30524c41b90deb9ef423231, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.75
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01f0fd2be30524c41b90deb9ef423231, type: 3}

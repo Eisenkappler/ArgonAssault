@@ -157,6 +157,14 @@ PrefabInstance:
       propertyPath: lasers.Array.data[1]
       value: 
       objectReference: {fileID: 6320829076737260628}
+    - target: {fileID: 477888852525087890, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
+      propertyPath: m_Size.z
+      value: 5.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 477888852525087890, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
+      propertyPath: m_Center.z
+      value: -1.99
+      objectReference: {fileID: 0}
     - target: {fileID: 7584822000608053182, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
       propertyPath: m_Name
       value: StarSparrow17
@@ -175,7 +183,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7584822000608053185, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 7584822000608053185, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
       propertyPath: m_LocalRotation.w
