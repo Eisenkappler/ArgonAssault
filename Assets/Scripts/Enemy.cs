@@ -7,9 +7,29 @@ public class Enemy : MonoBehaviour
  
     [SerializeField] GameObject deathVFX;
     [SerializeField] Transform parent;
+    [SerializeField] int scoreincrease = 1;
+
+    ScoreBoard scoreBoard;
+
+    private void Start() {
+        scoreBoard = FindObjectOfType<ScoreBoard>();   
+    }
     
     private void OnParticleCollision(GameObject other) {
-        Debug.Log($"I'm hit by {other.gameObject.name }");
+        ProcessHit();
+        KillEnemy();
+       
+    }
+
+
+    private void ProcessHit()
+    {
+        scoreBoard.IncreaseScore(scoreincrease);
+    }
+
+    private void KillEnemy()
+    {
+        
         GameObject vfx =  Instantiate(deathVFX,transform.position,Quaternion.identity);
         vfx.transform.parent = parent;
         Destroy(this.gameObject);
