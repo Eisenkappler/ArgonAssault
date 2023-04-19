@@ -165,6 +165,10 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -1.99
       objectReference: {fileID: 0}
+    - target: {fileID: 6328116911487927108, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
+      propertyPath: ps
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7584822000608053182, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
       propertyPath: m_Name
       value: StarSparrow17
