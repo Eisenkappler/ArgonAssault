@@ -433,6 +433,7 @@ GameObject:
   - component: {fileID: 3511277434817934797}
   - component: {fileID: 3516237382926886011}
   - component: {fileID: 3521875615979015277}
+  - component: {fileID: -3286009750883470354}
   m_Layer: 0
   m_Name: StarSparrow6
   m_TagString: Untagged
@@ -506,6 +507,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-3286009750883470354
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3508955840896764881}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.745908, y: 2.880384, z: 13.023569}
+  m_Center: {x: 0, y: -0.000014603138, z: -0.0000023841858}
 --- !u!1 &3984908340584108934
 GameObject:
   m_ObjectHideFlags: 0

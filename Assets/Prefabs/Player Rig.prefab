@@ -65,6 +65,7 @@ GameObject:
   - component: {fileID: 4723769294459400414}
   - component: {fileID: 4723769294459400415}
   - component: {fileID: 4723769294459400412}
+  - component: {fileID: 4873029453016029101}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -138,6 +139,66 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4723769294459400413}
   m_Enabled: 1
+--- !u!114 &4873029453016029101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4723769294459400413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 4723769294459400414}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 1
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 1
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!1001 &4723769294284637285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -157,13 +218,49 @@ PrefabInstance:
       propertyPath: lasers.Array.data[1]
       value: 
       objectReference: {fileID: 6320829076737260628}
+    - target: {fileID: 309681195008647038, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 309681195008647038, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 309681195008647038, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 477888852525087890, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
       propertyPath: m_Size.z
       value: 5.66
       objectReference: {fileID: 0}
     - target: {fileID: 477888852525087890, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
       propertyPath: m_Center.z
-      value: -1.99
+      value: -3.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 560242270829071595, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 560242270829071595, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 560242270829071595, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600514731525388342, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600514731525388342, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600514731525388342, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 6328116911487927108, guid: 58734c41594668840bd3847f2b5ce512, type: 3}
       propertyPath: ps
